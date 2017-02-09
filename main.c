@@ -236,7 +236,7 @@ int main_thread(SceSize argc, void* argp) {
                         display_message(&game_info, "delete failed.  ", 0xff);
                 }
             } else {
-                if (pad.Buttons & PSP_CTRL_LTRIGGER & PSP_CTRL_RTRIGGER & PSP_CTRL_CROSS & PSP_CTRL_DOWN) {
+                if (pad.Buttons & PSP_CTRL_LTRIGGER) {
                     // pause the game
                     if (control_module_threads(game_info.module_id, 1)) {
                         paused = 1;
