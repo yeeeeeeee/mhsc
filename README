@@ -1,54 +1,56 @@
-NOTE: The mhef project makes this plugin obsolete. With it you can convert
-save files directly on your computer without a PSP and without CFW:
-  http://github.com/svanheulen/mhef
+UPDATE by yeeeeeeee: Updated the inputs to make this compatible with Vita as there is no "note" button, press L+R+X+Down to open the menu.
 
-This plugin allows you to copy your Monster Hunter character to any
-save slot in any language/region of the game. In other words, you can
-do things like copy your character from the North American version of
-Monster Hunter Freedom Unite to the Japanese version of Monster Hunter
-Portable 2nd G. The only requirement is that you must have both the
-game you want to copy from and the game you want to copy to.
-
-You can report issues, get the latest version, and view the source at:
-  http://github.com/svanheulen/mhsc
-
-Known Supported Games:
-  Monster Hunter Portable (JP) (ULJM-05066)
-  Monster Hunter Freedom (EU) (ULES-00318)
-  Monster Hunter Freedom (NA) (ULUS-10084)
-  Monster Hunter Portable 2nd (JP) (ULJM-05156)
-  Monster Hunter Freedom 2 (EU) (ULES-00851)
-  Monster Hunter Freedom 2 (NA) (ULUS-10266)
-  Monster Hunter Portable 2nd G (JP) (ULJM-05500)
-  Monster Hunter Freedom Unite (EU) (ULES-01213)
-  Monster Hunter Freedom Unite (NA) (ULUS-10391)
-  Monster Hunter Portable 3rd (JP) (ULJM-05800)
-
-Theoretically Supported Games:
-  All variants of Monster Hunter Portable
-  All variants of Monster Hunter Portable 2nd
-  All variants of Monster Hunter Portable 2nd G
-  All (including not yet released) variants of Monster Hunter Portable 3rd
-
-Easy Installation (disables all other game plugins):
-  1. Copy the seplugins folder onto the root of your memory stick, replacing files
-
-Manual Installation:
-  1. Create a mhsc folder in your seplugins folder on your memory stick
-  2. Copy mhsc.prx to this new folder
-  3. Create a game.txt file in your seplugins folder, if one doesn't exist
-  4. Add a line to the game.txt file that reads "ms0:/seplugins/mhsc/mhsc.prx 0"
-  5. Use your custom firmware's recovery menu to enable/disable the plugin
-
-Usage:
-  1. Load a character you want to copy and make sure you're in the main village area
-  2. Press the music/note button to bring up the display
-  3. Press the square button to save a copy of your character
-  4. Once the save is complete, press the circle button to return to the game
-  5. Load a character to be replaced and make sure you're in the main village area
-  6. Press the music/note button to bring up the display
-  7. Press the cross button to load the copy you made of your character
-  8. Once the load is complete, press the circle button to return to the game
-     Note: Your character's appearance will not change until you go on a quest,
-           enter the training area or change your equipment.
-  9. Use the normal in game save function to save the changes
+NOTE: The mhef project makes this plugin obsolete. With it you can convertr
+save files directly on your computer without a PSP and without CFW:r
+  http://github.com/svanheulen/mhefr
+r
+This plugin allows you to copy your Monster Hunter character to anyr
+save slot in any language/region of the game. In other words, you canr
+do things like copy your character from the North American version ofr
+Monster Hunter Freedom Unite to the Japanese version of Monster Hunterr
+Portable 2nd G. The only requirement is that you must have both ther
+game you want to copy from and the game you want to copy to.r
+r
+You can report issues, get the latest version, and view the source at:r
+  http://github.com/svanheulen/mhscr
+r
+Known Supported Games:r
+  Monster Hunter Portable (JP) (ULJM-05066)r
+  Monster Hunter Freedom (EU) (ULES-00318)r
+  Monster Hunter Freedom (NA) (ULUS-10084)r
+  Monster Hunter Portable 2nd (JP) (ULJM-05156)r
+  Monster Hunter Freedom 2 (EU) (ULES-00851)r
+  Monster Hunter Freedom 2 (NA) (ULUS-10266)r
+  Monster Hunter Portable 2nd G (JP) (ULJM-05500)r
+  Monster Hunter Freedom Unite (EU) (ULES-01213)r
+  Monster Hunter Freedom Unite (NA) (ULUS-10391)r
+  Monster Hunter Portable 3rd (JP) (ULJM-05800)r
+r
+Theoretically Supported Games:r
+  All variants of Monster Hunter Portabler
+  All variants of Monster Hunter Portable 2ndr
+  All variants of Monster Hunter Portable 2nd Gr
+  All (including not yet released) variants of Monster Hunter Portable 3rdr
+r
+Easy Installation (disables all other game plugins):r
+  1. Copy the seplugins folder onto the root of your memory stick, replacing filesr
+r
+Manual Installation:r
+  1. Create a mhsc folder in your seplugins folder on your memory stickr
+  2. Copy mhsc.prx to this new folderr
+  3. Create a game.txt file in your seplugins folder, if one doesn't existr
+  4. Add a line to the game.txt file that reads "ms0:/seplugins/mhsc/mhsc.prx 0"r
+  5. Use your custom firmware's recovery menu to enable/disable the pluginr
+r
+Usage:r
+  1. Load a character you want to copy and make sure you're in the main village arear
+  2. Press L+R+X+Down to bring up the display
+  3. Press the square button to save a copy of your characterr
+  4. Once the save is complete, press the circle button to return to the gamer
+  5. Load a character to be replaced and make sure you're in the main village arear
+  6. Press L+R+X+Down to bring up the display
+  7. Press the cross button to load the copy you made of your characterr
+  8. Once the load is complete, press the circle button to return to the gamer
+     Note: Your character's appearance will not change until you go on a quest,r
+           enter the training area or change your equipment.r
+  9. Use the normal in game save function to save the changesr
